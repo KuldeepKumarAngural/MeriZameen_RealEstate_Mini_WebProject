@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-color:black;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #f80d0d;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left:122px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:#f80d0d;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #f80d0d;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background:#f80d0d;
+    border: 2px solid #f80d0d;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+
+
+#homes{
+    margin: 34px;
+    display: flex;
+
+}
+
+
+#homes .box{
+    border: 1px solid white;
+    padding: 34px;
+    margin: 16px 126px;
+    border-radius: 23px;
+    background-color: #f2f2f2;
+    height: 855px;
+    
+    
+}
+
+
+
+
+#homes .box p{
+    font-size: 1.2rem;
+    font-family: 'Times New Roman';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color:#f80d0d;
+    color: white;
+    font-size: 0.8rem;
+    padding: -2px 20px;
+    text-align: center;
+}
+
+.h-primary{
+    font-size: 3rem;
+    padding: 42px;
+    color: white;
+}
+.h-secondary{
+    font-size: 1.8rem;
+    padding: 12px;
+    color: black;
+    font-family: Arial;
+}
+
+.center{
+    text-align: center;
+}
